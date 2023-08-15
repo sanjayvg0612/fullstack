@@ -1,4 +1,4 @@
-FROM node:14-alphine
+FROM node:14-alpine
 WORKDIR /react-hooks-frontend/
 COPY package.json .
 RUN npn install
